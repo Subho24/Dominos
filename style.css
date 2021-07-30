@@ -59,7 +59,7 @@ topnav {
     text-align: center;
     justify-content: center;
     padding: 15px;
-    
+
 }
 .smart-button {
     background-color: #e31837;
@@ -96,9 +96,9 @@ topnav {
 }
 main {
     display: block;
-    margin-left: 20%;
-    margin-right: 30%;
-    width: 50%;
+    margin: 0 auto;
+    grid-area: inherit;
+    width: 925px;
 }
 .content {
     display: grid;
@@ -106,6 +106,7 @@ main {
     grid-template-rows: auto auto auto;
     grid-column-gap: 12px;
     grid-row-gap: 12px;
+    margin: 0 auto;
 }
 .grid-item-1 {
     grid-row-start: 1;
